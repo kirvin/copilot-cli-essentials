@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "server",
+  "dolt_database": "copilot_cli_essentials",
+  "project_id": "66d505ee-3fe9-44ad-bb71-77eb4b666e7e"
+}
