@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bd list:*)",
+      "Bash(gh copilot:*)",
+      "WebSearch",
+      "Bash(gh extension:*)",
+      "Bash(gh api:*)",
+      "Bash(bd create:*)",
+      "Bash(bd update:*)",
+      "Bash(cp -f /Users/kellyirvin/workspaces/dev-tooling/copilot-cli-essentials/.git/..//dev/null /dev/null 2>/dev/null; true)",
+      "Bash(chmod +x /Users/kellyirvin/workspaces/dev-tooling/copilot-cli-essentials/plugins/cpe/hooks/session-start.sh)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(for agent:*)",
+      "Bash(for skill:*)",
+      "Bash(bd close:*)",
+      "Bash(for cmd:*)",
+      "WebFetch(domain:docs.github.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(gh search:*)",
+      "WebFetch(domain:www.reddit.com)"
+    ]
+  }
+}

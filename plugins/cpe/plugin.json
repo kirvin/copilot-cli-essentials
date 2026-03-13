@@ -1,0 +1,27 @@
+{
+  "name": "cpe",
+  "description": "Copilot CLI Essentials — GitHub workflow toolkit for delivery, quality, and maintenance",
+  "version": "1.5.0",
+  "author": {
+    "name": "Kelly Irvin",
+    "url": "https://github.com/kellyirvin"
+  },
+  "homepage": "https://github.com/kellyirvin/copilot-cli-essentials",
+  "repository": "https://github.com/kellyirvin/copilot-cli-essentials",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "copilot",
+    "ci-cd",
+    "release",
+    "security",
+    "incident",
+    "deployment",
+    "workflows",
+    "delivery"
+  ],
+  "category": "workflows",
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "hooks": "hooks.json"
+}
