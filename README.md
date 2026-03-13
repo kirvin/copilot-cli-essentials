@@ -24,7 +24,7 @@ Agents are specialized AI assistants invoked with `@agent-name`. Each has a defi
 
 ## Skills
 
-Skills are on-demand knowledge and workflow documents. They surface as slash commands and are also loaded automatically by agents when relevant.
+Skills are on-demand knowledge and workflow documents. They are loaded automatically by agents when relevant.
 
 ### Delivery Workflows
 
