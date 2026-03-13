@@ -1,3 +1,21 @@
 {
-  "hooks": {}
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "bash ${COPILOT_PLUGIN_ROOT}/hooks/session-start.sh",
+        "timeoutSec": 10,
+        "comment": "Log session start for audit trail"
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "bash ${COPILOT_PLUGIN_ROOT}/hooks/pre-tool-use.sh",
+        "timeoutSec": 5,
+        "comment": "Block destructive operations without confirmation"
+      }
+    ]
+  }
 }
