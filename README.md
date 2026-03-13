@@ -35,6 +35,7 @@ Skills are loaded on-demand via the `Skill()` tool:
 | `cpe:incident-response` | Severity triage, investigation, post-mortems |
 | `cpe:deployment-strategies` | Blue/green, canary, feature flags, DB migrations |
 | `cpe:code-ownership` | CODEOWNERS setup, review standards |
+| `cpe:reading-logs` | Log investigation for GitHub Actions, CircleCI, and Jenkins |
 
 ## Agents
 
