@@ -1,0 +1,9 @@
+{
+  "name": "cpe",
+  "description": "Copilot CLI Essentials — GitHub workflow toolkit for delivery, quality, and maintenance",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kelly Irvin"
+  },
+  "license": "MIT"
+}
