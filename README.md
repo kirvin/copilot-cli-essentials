@@ -43,6 +43,10 @@ Skills are loaded on-demand via the `Skill()` tool:
 | `cpe:release-engineer` | Orchestrates end-to-end releases with validation and rollback |
 | `cpe:security-auditor` | Security-focused code review and vulnerability assessment |
 | `cpe:incident-commander` | Incident response coordination from triage through post-mortem |
+| `cpe:code-reviewer` | Comprehensive PR review — correctness, security, DX, CI/CD, CODEOWNERS |
+| `cpe:devils-advocate` | Poke holes in plans, deployments, and architecture before committing |
+| `cpe:log-reader` | Efficiently triage GitHub Actions logs and deployment failures |
+| `cpe:haiku` | Lightweight executor for delegated tasks from commands |
 
 ## License
 

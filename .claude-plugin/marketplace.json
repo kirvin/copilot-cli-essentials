@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Essential GitHub delivery and maintenance workflows — commands, skills, and agents for CI/CD, releases, security, incidents, and team operations",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "cpe",
       "source": "./plugins/cpe/",
-      "description": "Copilot CLI Essentials — GitHub workflow toolkit with 8 commands, 8 skills, and 3 agents for delivery, quality, and maintenance",
-      "version": "1.0.0",
+      "description": "Copilot CLI Essentials — GitHub workflow toolkit with 8 commands, 8 skills, and 7 agents for delivery, quality, and maintenance",
+      "version": "1.1.0",
       "author": {
         "name": "Kelly Irvin",
         "url": "https://github.com/kellyirvin"
@@ -57,7 +57,11 @@
       "agents": [
         "./agents/release-engineer.md",
         "./agents/security-auditor.md",
-        "./agents/incident-commander.md"
+        "./agents/incident-commander.md",
+        "./agents/code-reviewer.md",
+        "./agents/devils-advocate.md",
+        "./agents/haiku.md",
+        "./agents/log-reader.md"
       ]
     }
   ]
